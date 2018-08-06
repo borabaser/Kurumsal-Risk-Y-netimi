@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_kullanici"
+            android:icon="@drawable/ic_kullanici"
+            android:title="Kullanıcı Girişi" />
+        <item
+            android:id="@+id/nav_kayit"
+            android:icon="@drawable/ic_kayit"
+            android:title="Kayıt" />
+        <item
+            android:id="@+id/nav_risk_degerlendirme"
+            android:icon="@drawable/ic_risk_degerlendirme"
+            android:title="Risk Değerlendirme" />
+        <item
+            android:id="@+id/nav_raporlama"
+            android:icon="@drawable/ic_raporlama"
+            android:title="Raporlama" />
+
+    </group>
+
+    <item android:title="İletişim">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Paylaş" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Gönder" />
+        </menu>
+    </item>
+
+</menu>
